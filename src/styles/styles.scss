@@ -1,0 +1,99 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.date-bar{
+   height: 130px;
+   background-color:#5239D7;
+   padding: 15px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   &_date{
+       width: 100%;
+       color:white;
+       font-size: 30px;
+   }
+}
+
+
+
+
+
+.list{
+    &_items{
+        padding: 15px 15px;
+        color:#383839;
+        background-color: white;
+        display:flex;
+        justify-content: space-between;
+        border-bottom:1px solid#EEEBFB;
+        p{
+            margin:4px 0px;
+        }
+    }
+    &_action{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
+
+.list_info_project{
+    font-size: 12px;
+    font-weight: 500;
+    color: #5239D7
+}
+
+.list_info_title{
+    font-size: 16px;
+    font-weight: 700;
+}
+.list_info_type{
+    font-size: 13px;
+    font-weight: 400;
+    color: #989898
+}
+
+.play-action{
+    border-radius: 100%;
+    border: 2px solid #5239D7;
+    background-color: #E9E6FA;
+    height: 40px;
+    width: 40px;
+}
+
+
+.timer-text{
+    color:#5239D7;
+    padding: 20px;
+    font-weight: 600;
+}
+
+
+.day-list{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    &_item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 5px;
+        border-radius: 5px;
+        &.active{
+            background-color: #3A2897;
+
+        }
+        & div:nth-child(1){
+            color:#998CE8;
+            margin-bottom:7px;
+        }
+    }
+}
